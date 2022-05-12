@@ -1,0 +1,12 @@
+div img
+{
+    width: 400px;
+    height: 200px;
+    margin-left: 250px;
+}
+
+div span 
+{
+     margin-left: 300px;
+     font-size: 3em;
+}

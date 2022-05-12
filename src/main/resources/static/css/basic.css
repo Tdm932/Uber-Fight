@@ -1,0 +1,116 @@
+body
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header
+{
+    display: flex;
+    text-align: center;
+    height: 120px;
+    width: 100%;
+    justify-content: space-around;
+    font-family: Georgia;
+}
+
+img
+{
+    width: 140px;
+    height: 140px;
+}
+
+header h1
+{
+    margin-top: 40px;
+    font-style: oblique;
+    font-size: 3em;
+}
+
+nav
+{
+    width: 15%;
+    background: rgb(187, 198, 187);
+    height: 450px;
+    box-shadow: 6px 6px 6px black;
+    border: 2px solid black;
+}
+
+ul
+{
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    margin: 0 0 0 0;
+    flex-wrap: wrap;
+}
+
+hr
+{
+    width: 100%;
+    height: 2px;
+    color: gray;
+    background: gray;
+}
+
+li a
+{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    width: 100%;
+}
+
+li
+{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background: rgb(180, 170, 200);
+    height: 50px;
+}
+
+nav + div
+{
+    width: 80%;
+    height: 450px;
+    margin-left: 16px;
+
+}
+div + p
+{
+    margin-top: 30px;
+    font-size: 2em ;
+    color: rgb(147, 0, 0);
+}
+em
+{
+    font-size: 3.5em;
+    color: black;
+}
+a:hover
+{
+    text-decoration: underline;
+    color: green;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+}
+
+footer
+{
+    width: 100%;
+    height: 160px;
+    background: black;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 2em;
+    color: white;
+}
